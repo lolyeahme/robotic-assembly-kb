@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.venv/
+venv/
+*.pdf
+kb/assets/
+.DS_Store
