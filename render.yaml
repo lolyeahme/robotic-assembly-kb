@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: robotic-assembly-kb
+    runtime: docker
+    region: singapore
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: KB_API_KEY
+        generateValue: true
