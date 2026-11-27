@@ -193,7 +193,8 @@ def build_index() -> None:
                 "content": sec_body,
             })
 
-            for idx, child_text in enumerate(split_children(sec_title, sec_body), start=1):
+            chunk_limit = 1200 if "full_pages" in rel_file else 750
+            for idx, child_text in enumerate(split_children(sec_title, sec_body, max_chars=chunk_limit), start=1):
                 c_counter += 1
                 child_id = f"C{c_counter:05d}"
                 c_tags = infer_domain_tags(sec_title + "\n" + child_text)
@@ -291,7 +292,9 @@ def build_index() -> None:
     for c, toks in zip(children, doc_tokens):
         tf = Counter(toks)
         total = max(len(toks), 1)
-        vec = {t: (cnt / total) * idf[t] for t, cnt in tf.items()}
+        vec_all = {t: (cnt / total) * idf[t] for t, cnt in tf.items()}
+        top_items = sorted(vec_all.items(), key=lambda kv: kv[1], reverse=True)[:60]
+        vec = dict(top_items)
         norm = math.sqrt(sum(v * v for v in vec.values())) or 1.0
         vec_norm = {t: round(v / norm, 5) for t, v in vec.items()}
         tokens_text = " ".join(toks)

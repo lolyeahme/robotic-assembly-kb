@@ -18,3 +18,9 @@
 {"id": "Q18", "query": "对比 1985 年的 RCC 柔顺方案与 2025 年的 HC-CPS 阻抗学习方案的适用场景", "expected_keywords": ["RCC", "HC-CPS"], "expected_book": "cross_era_synthesis"}
 {"id": "Q19", "query": "What is the role of FEM and IPC in marker-based visuotactile Sim2Real?", "expected_keywords": ["FEM", "IPC"], "expected_book": "book2025"}
 {"id": "Q20", "query": "How does Boothroyd compare manual, dedicated, and general-purpose robot assembly economics?", "expected_keywords": ["Boothroyd", "Manual"], "expected_book": "book1985"}
+{"id": "Q21", "query": "ARL Assembly Robot Language Table 1 commands MOVE APPROACH", "expected_keywords": ["ARL", "Table 1"], "expected_book": "cross_era_synthesis"}
+{"id": "Q22", "query": "IPA Stuttgart Table 2 joining techniques ultrasonic welding adhesive", "expected_keywords": ["Table 2", "IPA"], "expected_book": "cross_era_synthesis"}
+{"id": "Q23", "query": "Boothroyd Eq. 10 Eq. 11 robot assembly cost manual dedicated", "expected_keywords": ["assembly", "cost"], "expected_book": "book1985"}
+{"id": "Q24", "query": "screw insertion friction torque Eq 4.9 jamming diagram", "expected_keywords": ["friction", "screw"], "expected_book": "book2025"}
+{"id": "Q25", "query": "Table 3.2 Sim2Real success rate 95.08% IPC FEM", "expected_keywords": ["95.08", "IPC"], "expected_book": "book2025"}
+{"id": "Q26", "query": "Flymo Commodore 4032 supervisor robot lawnmower assembly", "expected_keywords": ["Flymo", "Commodore"], "expected_book": "book1985"}
