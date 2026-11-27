@@ -1,0 +1,39 @@
+{
+  "_comment": "Choose EITHER Local Stdio MCP OR Cloud Remote HTTP MCP after deploying to Cloud Run / Render.",
+  "cloud_remote_mcp_http": {
+    "mcpServers": {
+      "robotic-assembly-kb-cloud": {
+        "url": "https://YOUR-CLOUD-URL/mcp",
+        "headers": {
+          "Authorization": "Bearer YOUR_KB_API_KEY"
+        }
+      }
+    }
+  },
+  "local_stdio_mcp_claude_cursor": {
+    "mcpServers": {
+      "robotic-assembly-kb": {
+        "command": "python3",
+        "args": [
+          "/ABS/PATH/TO/robotic_assembly_kb/servers/mcp_server.py"
+        ]
+      }
+    }
+  },
+  "gemini_cli_remote_mcp": {
+    "mcpServers": {
+      "robotic-assembly-kb-cloud": {
+        "httpUrl": "https://YOUR-CLOUD-URL/mcp",
+        "headers": {
+          "Authorization": "Bearer YOUR_KB_API_KEY"
+        },
+        "trust": true
+      }
+    }
+  },
+  "chatgpt_custom_gpt_and_dify_openapi": {
+    "openapi_schema_url": "https://YOUR-CLOUD-URL/openapi.json",
+    "auth_type": "API Key / Bearer",
+    "header": "Authorization: Bearer YOUR_KB_API_KEY"
+  }
+}

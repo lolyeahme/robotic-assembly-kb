@@ -1,0 +1,20 @@
+{"id": "Q01", "query": "VA-Point-MVSNet 和 PointFlow 如何解决金属零件高反光与遮挡问题？", "expected_keywords": ["VA-Point-MVSNet", "PointFlow"], "expected_book": "book2025"}
+{"id": "Q02", "query": "GelSight 视触觉 Sim2Real 协议采用了哪些仿真方法与域随机化？", "expected_keywords": ["FEM", "IPC", "TD3"], "expected_book": "book2025"}
+{"id": "Q03", "query": "单轴孔螺旋插入如何通过卡滞相图降低有效轴向摩擦阻力？", "expected_keywords": ["螺旋插入", "卡滞相图"], "expected_book": "book2025"}
+{"id": "Q04", "query": "双轴孔带柔性连接板装配的大变形和小变形阶段如何建模？", "expected_keywords": ["柔性连接板", "大变形"], "expected_book": "book2025"}
+{"id": "Q05", "query": "面向难测量易变形工件的示教学习如何使用 GPR 进行变形补偿？", "expected_keywords": ["GPR", "易变形"], "expected_book": "book2025"}
+{"id": "Q06", "query": "MDDPG 双层模糊奖励系统和反馈探索如何提升真机强化学习安全性？", "expected_keywords": ["MDDPG", "模糊奖励"], "expected_book": "book2025"}
+{"id": "Q07", "query": "Model-Based RL 中 GVFs 和 FLDVTSP-DQN/DDPG 的作用是什么？", "expected_keywords": ["GVFs", "FLDVTSP"], "expected_book": "book2025"}
+{"id": "Q08", "query": "分层强化学习 HRL 的双增广 MDP 和 Softmax 门控策略如何工作？", "expected_keywords": ["Softmax", "增广 MDP"], "expected_book": "book2025"}
+{"id": "Q09", "query": "HC-CPS 分层柔顺控制中的阻抗条件动作空间、VAE 和 GMR-GP 分别负责什么？", "expected_keywords": ["HC-CPS", "GMR-GP"], "expected_book": "book2025"}
+{"id": "Q10", "query": "SCARA 机器人的选择顺应性设计哲学是什么？", "expected_keywords": ["SCARA", "选择顺应性"], "expected_book": "book1985"}
+{"id": "Q11", "query": "PRAGMA A3000、YESMAN 和 ASEA 摆式机器人各有什么结构特点？", "expected_keywords": ["PRAGMA", "ASEA"], "expected_book": "book1985"}
+{"id": "Q12", "query": "IBM RS 7565 打字机装配案例强调了什么关键工程因素？", "expected_keywords": ["RS 7565", "异常恢复"], "expected_book": "book1985"}
+{"id": "Q13", "query": "面向机器人装配的产品设计 DFA 有哪些核心原则（分层、倒角、卡扣）？", "expected_keywords": ["倒角", "卡扣"], "expected_book": "book1985"}
+{"id": "Q14", "query": "SRL 机器人语言与 RODABAS 关系型世界模型是如何解耦的？", "expected_keywords": ["SRL", "RODABAS"], "expected_book": "book1985"}
+{"id": "Q15", "query": "VAL-II 和 RAIL 编程语言在传感器与视觉集成上各有什么特点？", "expected_keywords": ["VAL-II", "RAIL"], "expected_book": "book1985"}
+{"id": "Q16", "query": "RCC 远心柔顺装置、主动顺应和自适应被动顺应有什么区别？", "expected_keywords": ["RCC", "主动顺应"], "expected_book": "book1985"}
+{"id": "Q17", "query": "Miller 盈亏平衡资本成本 Q、Boothroyd 经济曲线和 Redford 供料成本模型如何用于投资决策？", "expected_keywords": ["Miller", "Boothroyd"], "expected_book": "book1985"}
+{"id": "Q18", "query": "对比 1985 年的 RCC 柔顺方案与 2025 年的 HC-CPS 阻抗学习方案的适用场景", "expected_keywords": ["RCC", "HC-CPS"], "expected_book": "cross_era_synthesis"}
+{"id": "Q19", "query": "What is the role of FEM and IPC in marker-based visuotactile Sim2Real?", "expected_keywords": ["FEM", "IPC"], "expected_book": "book2025"}
+{"id": "Q20", "query": "How does Boothroyd compare manual, dedicated, and general-purpose robot assembly economics?", "expected_keywords": ["Boothroyd", "Manual"], "expected_book": "book1985"}
